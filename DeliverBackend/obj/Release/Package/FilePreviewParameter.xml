@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="DeliverBackend" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\ccumpa\\Documents\\Personales\\Proyectos\\Deliver\\src\\DeliverBackend\\DeliverBackend\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\ccumpa\\Documents\\Personales\\Proyectos\\Deliver\\src\\DeliverBackend\\DeliverBackend\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="MS_TableConnectionString-Web.config Connection String" description="" value="Data Source=tcp:sauronserverdatabase.database.windows.net,1433;Initial Catalog=DeliverDataBase;Persist Security Info=True;User ID=kayl;Password=T3mp0r4L." tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\ccumpa\\Documents\\Personales\\Proyectos\\Deliver\\src\\DeliverBackend\\DeliverBackend\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MS_TableConnectionString']/@connectionString" />
+  </parameter>
+</parameters>
