@@ -35,5 +35,7 @@ namespace DeliverBackend.Models
         public System.Data.Entity.DbSet<DeliverBackend.Models.Card> Cards { get; set; }
 
         public System.Data.Entity.DbSet<DeliverBackend.Models.Rol> Rols { get; set; }
+
+        public System.Data.Entity.DbSet<DeliverBackend.Models.User> Users { get; set; }
     }
 }
